@@ -1,0 +1,41 @@
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  .card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+  }
+  
+  .card span{
+    background-color: blue;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
